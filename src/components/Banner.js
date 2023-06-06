@@ -6,6 +6,7 @@ import vegImg from "../images/Vegetables.png"
 import fruitImg from "../images/Fruits.png";
 import appleImg from "..//images/Apple.png";
 import beansImg from "../images/Beans.png";
+import { Link } from 'react-router-dom';
 
 
 const Banner = () => {
@@ -18,7 +19,7 @@ const Banner = () => {
                Buy vegetables and potatoes free. Condition Applied.
              </div>
              <div className={bannerStyles.cta}>
-                Shop Now
+                <Link to="/items/vegetables">Shop Now</Link>
              </div>
         </div>
         <div>
@@ -28,7 +29,7 @@ const Banner = () => {
                Royal Gala Apples
              </div>
              <div className={bannerStyles.cta}>
-                Shop Now
+             <Link to="/items/fruits">Shop Now</Link>
              </div>
         </div>
         <div>
@@ -38,7 +39,7 @@ const Banner = () => {
                Start your day with a fruit.
              </div>
              <div className={bannerStyles.cta}>
-                Shop Now
+             <Link to="/items/fruits">Shop Now</Link>
              </div>
         </div>
         <div>
@@ -48,7 +49,7 @@ const Banner = () => {
                20% discount on french Beans.
              </div>
              <div className={bannerStyles.cta}>
-                Shop Now
+             <Link to="/items/vegetables">Shop Now</Link>
              </div>
         </div>
         
